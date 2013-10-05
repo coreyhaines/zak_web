@@ -1,4 +1,6 @@
 zak_web
 =======
 
-Yaws application to serve up random pictures of Zak
+Yaws application to serve up random pictures of Zak.
+
+AMAZING!

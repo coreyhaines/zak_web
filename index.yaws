@@ -1,0 +1,15 @@
+<html>
+<head></head>
+<body>
+<erl>
+out(A) ->
+  {A1,A2,A3} = now(),
+  random:seed(A1, A2, A3),
+  Count = random:uniform(4),
+  {ehtml, [
+           {h1, [], f("Zak ~p", [Count])},
+           {img, [{src, f("zak~p.jpg", [Count])},{height,"640px"}]}
+          ]}.
+</erl>
+</body>
+</html>
